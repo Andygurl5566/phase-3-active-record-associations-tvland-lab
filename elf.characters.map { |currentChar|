@@ -1,0 +1,36 @@
+
+[1mFrom:[0m /home/andygurl5566/Development/Phase_3/TV_land/phase-3-active-record-associations-tvland-lab/app/models/actor.rb:19 Actor#list_roles:
+
+    [1;34m11[0m: [32mdef[0m [1;34mlist_roles[0m
+    [1;34m12[0m:   [1;34m# returns a list of roles for the actor using the character name and show name (FAILED - 1)[0m
+    [1;34m13[0m:   
+    [1;34m14[0m:  [1;34m# new = [][0m
+    [1;34m15[0m:  [1;34m# a = self.shows.select {|a| a.name} #zooks[0m
+    [1;34m16[0m:  [1;34m# b = self.characters.select {|a| a.name}[0m
+    [1;34m17[0m:  
+    [1;34m18[0m:  [1;34m# new.push(b,a)[0m
+ => [1;34m19[0m:   binding.pry
+    [1;34m20[0m:  [1;36mself[0m.characters.map { |currentChar|
+    [1;34m21[0m:   currentChar.name
+    [1;34m22[0m: 
+    [1;34m23[0m: }
+    [1;34m24[0m: [32mend[0m
+
+
+[1mFrom:[0m /home/andygurl5566/Development/Phase_3/TV_land/phase-3-active-record-associations-tvland-lab/app/models/actor.rb:19 Actor#list_roles:
+
+    [1;34m11[0m: [32mdef[0m [1;34mlist_roles[0m
+    [1;34m12[0m:   [1;34m# returns a list of roles for the actor using the character name and show name (FAILED - 1)[0m
+    [1;34m13[0m:   
+    [1;34m14[0m:  [1;34m# new = [][0m
+    [1;34m15[0m:  [1;34m# a = self.shows.select {|a| a.name} #zooks[0m
+    [1;34m16[0m:  [1;34m# b = self.characters.select {|a| a.name}[0m
+    [1;34m17[0m:  
+    [1;34m18[0m:  [1;34m# new.push(b,a)[0m
+ => [1;34m19[0m:   binding.pry
+    [1;34m20[0m:  [1;36mself[0m.characters.map { |currentChar|
+    [1;34m21[0m:   currentChar.name
+    [1;34m22[0m: 
+    [1;34m23[0m: }
+    [1;34m24[0m: [32mend[0m
+
